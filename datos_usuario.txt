@@ -1,1 +1,2 @@
 Usuario=facundo
+model name	: Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz

@@ -1,0 +1,135 @@
+    1  cp boot.log /home/facundo/Documentos
+    2  cd /
+    3  cd /var/log
+    4  pwd
+    5  cp boot.log /home/facundo/Documentos
+    6  cd /home/facundo/Documentos
+    7  ls
+    8  ls _l
+    9  ls -l
+   10  mkdir prueba
+   11  ls
+   12  rmdir prueba
+   13  ls
+   14  grep 'root' boot.log
+   15  grep root boot.log
+   16  grep "root" boot.log
+   17  cat boot.log
+   18  grep 'service' boot.log
+   19  grep 'logrotate' boot.log
+   20  grep [system] bootl.lo
+   21  grep [system] bootl.log
+   22  grep [system] boot.log
+   23  grep '^system' boot.log
+   24  grep 's*v' boot.log
+   25  grep 'c*s' boot.log
+   26  grep 'c..s' boot.log
+   27  clear
+   28  dmesg
+   29  nano
+   30  nano
+   31  ls
+   32  ls -l
+   33  chown facundo boot.log
+   34  ls -l
+   35  exit
+   36  chown facundo boot.log
+   37  ls -l
+   38  cd /home/Documentos
+   39  cd /facundo/home/Documentos
+   40  cd /home/facundo/Documentos
+   41  ls -l
+   42  Facu1992
+   43  sudo apt-get install git
+   44  git clone https://github.com/facubusta/TP_AySO.git
+   45  exit
+   46  cp datosusuario.txt TP_AySO
+   47  cd TP_AySO
+   48  ls
+   49  cat datosusuario.txt
+   50  git config --global user.email "facubusta"
+   51  git config --global user.name "facubustamanteok@gmail.com"
+   52  git config --global user.name "facubustamanteok@gmail.com"
+   53  git config --global user.email "facubustamanteok@gmail.com"
+   54  git config --global user.name "facubusta"
+   55  clear
+   56  git add .
+   57  git commit -m "ADD: texto agregado"
+   58  git status
+   59  git push
+   60  git push
+   61  git push
+   62  git push
+   63  git push
+   64  git push
+   65  git push
+   66  git push -u origin main
+   67  git push
+   68  git push
+   69  git push
+   70  pws
+   71  pwd
+   72  cd repogit
+   73  cd ..
+   74  chmod 777 TP_AySO
+   75  LS
+   76  ls
+   77  cd TP_AySO
+   78  echo "USUARIO=$(whoami)" > datos.usuario.txt
+   79  git config --list
+   80  git add.
+   81  git add .
+   82  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+   83  git push
+   84  git push
+   85  git push
+   86  facubusta
+   87  facubusta
+   88  git push
+   89  facubusta
+   90  git push
+   91  cd ..
+   92  cd ..
+   93  cd ..
+   94  exit
+   95  git add.
+   96  git add .
+   97  git commit -m "Agregado primer ejercicio sobre datos_usuarios.txt"
+   98  git status
+   99  grep
+  100  tail -n1
+  101  git add.
+  102  git add .
+  103  git commit -m "Feat : Añadiendo informacion de cpu"
+  104  mkadir lista_ordenada.txt
+  105  mkdir lista_ordenada.txt
+  106  mkadir lista_ordenada
+  107  mkdir lista_ordenada
+  108  awk -f '$7 != "/sbin/nologin" {print $1, $7}' /etc/passwd | sort -k2 | head -n 10 > lista_ordenada
+  109  awk -f '$7 != "/sbin/nologin" {print $1, $7}' /etc/passwd | sort -k2 | head -n 10 > lista_ordenada
+  110  awk -f '$7 != "/sbin/nologin" {print $1, $7}' /etc/passwd | sort -k2 | head -n 10 > lista_ordenada
+  111  awk -f '$7 != "/sbin/nologin" {print $1, $7}' /etc/passwd | sort -k2 | head -n 10 >> lista_ordenada
+  112  awk -F '$7 != "/sbin/nologin" {print $1, $7}' /etc/passwd | sort -k2 | head -n 10 > lista_ordenada
+  113  git add .
+  114  cd repogit/
+  115  git add .
+  116  ls
+  117  cd TP_AySO/
+  118  git add .
+  119  awk -F: '$7 != "/sbin/nologin" {print $1, $7}' /etc/passwd | sort -k2 | head -n 10 > lista_ordenada
+  120  git add .
+  121  git commit -m "ADD: Listado de usuarios ordenado"
+  122  echo "tcpdump" > comando_dump_net
+  123  echo "tcpdump -i any" > comando_dump_net
+  124  git add .
+  125  git commit -m "ADD:Comando para capturar y analizar el trafico de red"
+  126  cat << EQF >> README.md 
+Alumno: Facundo Bustamante
+División: 107
+Turno: Mañana
+EQF
+
+  127  git add .
+  128  git commit -m "ADD:Agregre informacion en el archivo readme.md"
+  129  history -a
+  130  history > Historial_comando_facundo.txt

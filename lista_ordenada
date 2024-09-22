@@ -1,0 +1,10 @@
+facundo /bin/bash
+root /bin/bash
+Debian-gdm /bin/false
+gnome-initial-setup /bin/false
+speech-dispatcher /bin/false
+tss /bin/false
+sync /bin/sync
+_apt /usr/sbin/nologin
+avahi /usr/sbin/nologin
+avahi-autoipd /usr/sbin/nologin
